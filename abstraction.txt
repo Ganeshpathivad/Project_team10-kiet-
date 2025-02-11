@@ -1,0 +1,37 @@
+𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐍𝐚𝐦𝐞 : 𝐍𝐞𝐱𝐭 𝐰𝐨𝐫𝐝 𝐩𝐫𝐞𝐝𝐢𝐜𝐭𝐢𝐨𝐧 𝐮𝐬𝐢𝐧𝐠 𝐋𝐒𝐓𝐌
+
+𝐓𝐞𝐚𝐦 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 :
+
+1. P Ganesh
+2. K Karthik 
+3. K Srikanth
+4. CH Bhanu Prasad
+
+Goal: To develop a model that can predict the next word in a sequence of text, aiding users in generating coherent sentences.
+
+𝐌𝐞𝐭𝐡𝐨𝐝𝐨𝐥𝐨𝐠𝐲:
+
+Data Preprocessing: The project begins by preparing the data for the model. This includes tokenizing the text (splitting it into individual words or sub-word units), creating sequences of words, and padding these sequences to ensure they are of uniform length.
+
+Model Building: A Long Short-Term Memory (LSTM) network, a type of recurrent neural network, is used to build the predictive model. LSTMs are well-suited for tasks involving sequential data like text, as they can capture long-range dependencies between words.
+
+Training: The LSTM model is trained on a large corpus of text. During training, the model learns the patterns and relationships between words, enabling it to predict the next word in a sequence.
+
+Prediction: Once trained, the model can be used to predict the next word in a given sequence. By feeding the model a sequence of words, it outputs a probability distribution over the vocabulary, indicating the likelihood of each word being the next one.
+
+𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬: 
+
+This project has various applications, including:
+
+Text generation: Assisting in writing emails, articles, or other forms of text.
+
+Autocompletion: Suggesting words as you type, improving writing efficiency.
+
+Language modeling: Understanding the structure and patterns of language.
+
+𝐀𝐝𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧:
+
+The project utilizes tools like TensorFlow and Jupyter Notebook for model development and implementation.
+The model's performance is evaluated based on metrics such as accuracy and loss.
+The project highlights the capabilities of LSTM networks in capturing long-range dependencies in text data.
+Overall, this project showcases the power of LSTM networks in predicting the next word in a sequence, with potential applications in various natural language processing tasks.
